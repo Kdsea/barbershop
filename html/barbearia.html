@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia</title>
+    <link rel="stylesheet" href="stilo.css">
+</head>
+<body id="corpo">
+
+    <h1 class="texto" id="bemvindo">Bem Vindo a Nossa Barbearia</h1>
+    <p  class="texto" id="para1">Somos a melhor barbearia da cidade, contamos com 3 barbeiros profissionais que atuam no ramo a mais de 5 anos.</p>
+    <h3 class="texto" id="agende">Agende agora seu corte com um de nosso barbeiros!</h3>
+    <h4 class="texto" id="preencha">Preencha o formulario abaixa e agende agora!</h4>
+    <p  class="texto" id="para2">Estamos Abertos das 8:00 ás 19:00</p>
+
+    <form>
+
+        <label for="nome" id="nome">Seu Nome:</label> <input type="text" id="preenchernome"> 
+
+        <!--Opção para escolher o corte-->
+        <br><label for="estilo" id="estilo" class="texto">Escolha o Estilo do Seu Corte</label>
+
+        <select class="corte">
+            <option >Degradê</option>
+            <option >Social</option>
+            <option >Moicano</option>
+            <option >Mullet</option>
+        </select>
+        <label for="outros" id="outros" class="texto">Outros:</label> <input type="text" class="outros">
+        <br>
+
+        <!--Opção para escolher o Barbeiro-->
+        <label for="barbeiro" id="barbeiro" class="texto">Escolha Um De Nossos Barbeiros</label>
+        <select class="barbeiros" id="barbeirosid">
+            <option>Marcos</option>
+            <option>Luciano</option>
+            <option>Pedro</option>
+            <option>Mariano</option>
+            <option>Lucas</option>
+        </select><br>
+       
+        <label class="lavagem1"> Lavagem No Cabelo?</label>
+        <!--Caixa de Marcação tag <input type="radio" name="ok"-->
+        
+        <label for="sim1" id="sim1">Sim:</label>
+            <input type="radio" name="ok" id="sim2">
+
+        <label for="nao1" id="nao1">Não:</label>
+            <input type="radio" name="ok" id="nao2"><br>
+
+        <label for="qualdiahora" class="texto" id="diahora">Qual dia e horário?</label>
+            <input type="date" class="datahora" <input type="time" class="datahora"><br>
+
+        <label for="tel" id="seutelefone">Seu Telefone:</label>
+            <input type="number" id="numerodetelefone"><br>
+
+        <button id="botao" class="texto">Enviar</button>
+    </form>
+
+    <!--Rodapé da pagina com informações importantes-->
+
+    <footer class="contato">
+        <p id="numero" class="texto">Fale Conosco: 0000-0000</p>
+        <p id="instagram" class="texto">Instagram</p>
+        <p id="facebook" class="texto">Facebook</p>
+    </footer>
+</body>
+</html>
