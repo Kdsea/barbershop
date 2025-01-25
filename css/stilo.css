@@ -1,0 +1,124 @@
+#corpo{
+    background-image: url("1371357.jpg"); 
+    background-size: 100%;
+}
+
+.texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.barbeiros{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white
+}
+
+.corte{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+#bemvindo{
+    text-align: center;
+    margin-top: 0;
+}
+
+#nome{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 500px;
+    font-size: 17px;
+}
+
+#preenchernome{
+    margin-left: 10px;
+}
+
+#estilo{
+    margin-left: 500px;
+    
+}
+#barbeirosid{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#barbeiro{
+    margin-left: 500px;
+}
+
+#outros{
+    margin-left: 10px;
+}
+
+#lavagem1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 500px;
+}
+
+#diahora{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.datahora{
+    margin-top: 15px;
+}
+
+.lavagem1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 500px;
+}
+
+#sim1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+#nao1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#nao2{
+    margin-top: 15px;
+}
+
+#seutelefone{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 500px;
+}
+
+#numerodetelefone{
+    margin-top: 15px;
+}
+
+#botao{
+    margin-left: 800px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: rgb(109, 109, 109);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
